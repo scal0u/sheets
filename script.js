@@ -3,7 +3,7 @@ var casper = require('casper').create();
 // var casper = require("casper");
 
 casper.start('http://localhost:3000', function() {
-    this.captureSelector('jumbotrons.png', '.jumbotron');
+    this.captureSelector('grab.png', '.selector');
 	console.log("done");
 });
 
