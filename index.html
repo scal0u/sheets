@@ -22,10 +22,18 @@
 			opacity: 0.3;
 		}
 
-
 		#s1 {
 		    top: 38%;
 		    left: 6%;
+		    width: 84%;
+		    height: 7%;
+		}
+
+		#s2 {
+		    top: 70.5%;
+		    left: 6%;
+		    width: 84%;
+		    height: 8%;
 		}
 
 
@@ -37,12 +45,12 @@
 			<div class="col-sm-12">
 				<img src="img/sheet.jpg" class="img-responsive">
 				<div class="selector" id="s1" ></div>
+				<div class="selector" id="s2" ></div>
 			</div>
 		</div>
 	</div>
 
 	<script>
-		$("#s1").width("84%").height("5%")
 		$(".selector").resizable().draggable();
 	</script>
 </body>
